@@ -1,153 +1,102 @@
-# 🚀 Ultimate AI Education Template - Next.js
+# 🧪 Scheikunde Oefenen - AI Powered Learning
 
-> **Een complete, professionele AI template met Gemini API, camera, multi-file upload, audio transcriptie, advanced TTS en meer!**
+> **Een intelligente scheikunde oefenapp voor HAVO en VWO leerlingen**
 >
-> **Gemaakt door Tom Naberink voor de onderwijssector**
+> **Gemaakt door Tom Naberink**
 
-Een geavanceerde Next.js template die **alles** biedt wat je nodig hebt voor innovatieve AI-projecten in het onderwijs. Van simpele chatbots tot complexe multi-modal AI applicaties - dit is je startpunt!
+Een geavanceerde Next.js app die AI gebruikt om gepersonaliseerde scheikunde vragen te genereren. Leerlingen kunnen hun niveau kiezen, onderwerpen selecteren en krijgen socratische begeleiding bij foute antwoorden.
 
-## ✨ Complete Feature Set
+## ✨ Features
 
-### 🎯 **Core AI Functionaliteiten**
-- 🧠 **Multi-Model AI**: Gemini 2.5 Pro, 2.5 Flash, en 2.0 Flash met internet toegang
-- 🌐 **Real-time Internet Access**: Gemini 2.0 Flash met Google Search integration
-- 🎵 **Audio Transcriptie**: Gemini 2.5 Flash voor speech-to-text
-- 📸 **Multi-Image Analysis**: Meerdere afbeeldingen tegelijk analyseren
-- 💬 **Markdown Rendering**: Perfecte opmaak van AI responses
-- 🗣️ **Spraakherkenning**: Browser native voice input
-- ⚡ **Streaming Responses**: Real-time AI response weergave
+### 🎯 **Gepersonaliseerd Leren**
+- 📚 **Niveau selectie**: HAVO (jaar 4-5) en VWO (jaar 4-6)
+- 🎓 **Leerjaar aanpassing**: Vragen aangepast aan het specifieke leerjaar
+- 📖 **Onderwerp keuze**: 10+ scheikunde onderwerpen beschikbaar
+- 🤖 **AI-gegenereerde vragen**: Unieke multiple choice vragen per sessie
 
-### 🔊 **Advanced Text-to-Speech (TTS)**
-- 🎙️ **Dual TTS Engines**: Microsoft TTS (standaard) + Gemini AI TTS
-- 🎭 **30 Gemini Voices**: Van Zephyr tot Sulafat met unieke karakteristieken
-- 😊 **7 Emotion Styles**: Neutraal, Gelukkig, Enthousiast, Kalm, Professioneel, Vriendelijk, Informatief
-- ⚡ **Speed Control**: 4 snelheden voor Microsoft TTS (0.75x tot 2.0x)
-- ⚙️ **Unified Settings**: Één settings dropdown voor alle TTS opties
-- 📱 **Responsive Interface**: Geoptimaliseerd voor alle schermformaten
+### 💡 **Intelligente Feedback**
+- ✅ **Directe feedback**: Bij goede antwoorden krijg je uitleg waarom het correct is
+- 🤔 **Socratische begeleiding**: Bij foute antwoorden word je stap voor stap naar het juiste antwoord geleid
+- 📊 **Score tracking**: Houd je voortgang bij tijdens de oefensessie
+- 🎯 **Adaptief leren**: AI past vragen aan op basis van je niveau
 
-### 📁 **Geavanceerd File Management**
-- 🖼️ **Afbeeldingen**: JPG, PNG, GIF, WebP, BMP - met preview en multi-select
-- 📄 **Documenten**: PDF, DOCX, TXT, MD - automatische tekst extractie
-- 📊 **Data**: CSV, JSON - gestructureerde data analyse
-- 🎵 **Audio**: MP3, WAV, OGG, M4A, AAC, FLAC, MP4, WebM - auto-transcriptie
-- 📱 **Camera Capture**: Direct foto's maken vanuit de browser
-- 🎯 **Drag & Drop**: Bestanden slepen en neerzetten
-- 📋 **Copy/Paste**: Afbeeldingen, URLs en tekst plakken
-- ✅ **Batch Processing**: Meerdere bestanden tegelijk selecteren en verwerken
+### 🎨 **Gebruiksvriendelijke Interface**
+- 📱 **Responsive design**: Werkt perfect op alle apparaten
+- 🎨 **Moderne UI**: Strakke interface met duidelijke feedback
+- ⚡ **Snelle responses**: Optimaal gebruik van Gemini AI
+- 🔄 **Eenvoudige navigatie**: Intuïtieve flow van setup naar oefenen
 
-### 🎨 **User Experience**
-- 💜 **Modern Design**: Strakke paarse interface met Tailwind CSS
-- 📱 **Mobile First**: Perfect responsive op alle apparaten
-- ⚡ **Real-time Feedback**: Loading states, progress indicators
-- 🎮 **Keyboard Shortcuts**: Enter om te verzenden, Ctrl+V om te plakken
-- 🔒 **Secure**: Alle API keys blijven server-side
-- 📄 **Word Export**: AI responses exporteren naar Word documenten
-- 📋 **One-Click Copy**: Responses kopiëren naar klembord
+## 🚀 Quick Start
 
-### 🚀 **Deployment & Performance**
-- 🌐 **Netlify Optimized**: Perfect voor Bolt.new deployment
-- ⚡ **Next.js 15**: Nieuwste versie met optimale performance
-- 🔧 **TypeScript**: Volledig type-safe development
-- 📦 **Lean Dependencies**: Alleen wat nodig is, geen bloat
+### Stap 1: 🔑 API Key Verkrijgen
+Ga naar [Google AI Studio](https://makersuite.google.com/app/apikey) om je gratis Gemini API key aan te maken.
 
-## 🚀 Quick Start: Van 0 naar AI in 5 Minuten!
-
-### Stap 1: 🍴 Fork dit template in GitHub
-Fork dit template in GitHub. Ga naar [github.com](https://github.com) en login in. Ga dan naar deze pagina: [https://github.com/TomNaberink/apitemplateTom](https://github.com/TomNaberink/apitemplateTom)
-Klik rechtsbovenin op 'Use this template', geef het een gepaste naam voor je project en klik op 'create fork'.
-
-### Stap 2: 📥 Import in Bolt.new
-Open [Bolt.new](https://bolt.new) en login. Selecteer 'import from github' en login op GitHub. Kies dan de 'repository' die je net hebt geforkt.
-
-### Stap 3: 🔑 API Keys Verkrijgen
-**Vereist:** [Gemini API Key](https://makersuite.google.com/app/apikey) (gratis)
-
-⚠️ **Kosten**: Gemini heeft een genereuze gratis tier voor alle functionaliteiten inclusief audio transcriptie.
-
-### Stap 4: 🛠️ Project Setup
+### Stap 2: 🛠️ Project Setup
 ```bash
 # Clone het project
-git clone https://github.com/TomNaberink/templateAPIinclcamera.git
-cd templateAPIinclcamera
+git clone [repository-url]
+cd scheikunde-oefenen
 
 # Dependencies installeren
 npm install
 
 # Environment variables
 cp .env.example .env.local
-# Edit .env.local en voeg je API keys toe
+# Edit .env.local en voeg je API key toe
 ```
 
-### Stap 5: 🔧 Environment Configuration
-Maak `.env.local` aan met je API keys:
+### Stap 3: 🔧 Environment Configuration
+Maak `.env.local` aan met je API key:
 
 ```env
-# VEREIST: Voor alle Gemini AI functionaliteiten (inclusief audio transcriptie)
+# VEREIST: Voor alle AI functionaliteiten
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-### Stap 6: 🎉 Start & Test
+### Stap 4: 🎉 Start & Test
 ```bash
 npm run dev
 # Open http://localhost:3000
-# Test alle features met de ingebouwde interface!
+# Kies je niveau en begin met oefenen!
 ```
 
-### Stap 7: 🚀 Deploy naar Netlify
+### Stap 5: 🚀 Deploy naar Netlify
 1. **In Bolt.new**: "Deploy to Netlify"
 2. **Environment Variables toevoegen** in Netlify dashboard:
    - `GEMINI_API_KEY` (vereist voor alle functionaliteiten)
 3. **Deploy** en je app is live!
 
-## 📋 Volledige Feature Demonstratie
+## 📚 Beschikbare Onderwerpen
 
-### 🎯 **AI Model Selector**
-```
-🧠 Gemini 2.5 Pro: Hoogste kwaliteit, diepgaande analyse
-⚡ Gemini 2.5 Flash: Beste balans snelheid & kwaliteit (standaard)
-🌐 Gemini 2.0 Flash: Internet toegang + Google Search (minder slim model)
-```
+De app biedt vragen over deze scheikunde onderwerpen:
 
-### 🔊 **Text-to-Speech Demo**
-```
-1. Schrijf een AI response
-2. Klik op ⚙️ voor TTS instellingen
-3. Kies tussen Microsoft TTS (standaard) of Gemini AI TTS
-4. Microsoft: Pas snelheid aan (4 opties)
-5. Gemini: Kies stem (30 opties) + emotie (7 opties)
-6. Klik 🔊 om audio af te spelen
-```
+1. **Atoomstructuur en periodiek systeem**
+2. **Chemische binding**
+3. **Stoichiometrie en molrekenen**
+4. **Zuren en basen**
+5. **Redoxreacties**
+6. **Organische chemie**
+7. **Thermochemie**
+8. **Reactiesnelheid en evenwicht**
+9. **Elektrochemie**
+10. **Polymeren en biomoleculen**
 
-### 🎯 **Multi-Modal AI Conversaties**
-```
-✅ Upload 3 afbeeldingen + audio bestand + PDF document
-✅ Selecteer welke bestanden je wilt analyseren  
-✅ Vraag: "Vergelijk deze afbeeldingen met de audio transcriptie"
-✅ Gemini analyseert alles tegelijk en geeft uitgebreid antwoord
-✅ Luister naar response met TTS + download als Word
-```
+## 🎓 Voor Docenten
 
-### 📸 **Camera & Vision**
-- 📷 Direct foto's maken in de browser
-- 🖼️ Afbeelding preview met bewerking opties
-- 👁️ Gemini Vision voor object/tekst herkenning
-- 🔄 Multi-image comparison en analyse
+### 📊 **Educatieve Voordelen**
+- 🎯 **Gepersonaliseerd leren**: Elke leerling krijgt vragen op zijn/haar niveau
+- 🤖 **AI-begeleiding**: Socratische methode helpt leerlingen zelf tot antwoorden te komen
+- 📈 **Directe feedback**: Leerlingen zien meteen waar ze staan
+- 🔄 **Onbeperkte vragen**: AI genereert steeds nieuwe, unieke vragen
 
-### 🎵 **Audio Processing Pipeline**
+### 🏫 **Classroom Integration**
+```bash
+# Voor gebruik in de klas:
+1. Leerlingen gaan naar de live URL
+2. Iedereen kiest zijn eigen niveau en onderwerp
+3. Docent kan meekijken en ondersteunen waar nodig
+4. Resultaten kunnen besproken worden in de klas
 ```
-Audio Upload → Gemini Transcriptie → Gemini Analyse → Markdown Response → TTS Output
-```
-- Ondersteunt 6 audio formaten (MP3, WAV, AIFF, AAC, OGG, FLAC)
-- Nederlandse prompt voor optimale transcriptie
-- Tot 25MB bestanden (inline data limiet)
-- Perfecte transcriptie kwaliteit met Gemini 2.5 Flash
-
-### 📁 **Smart File Management**
-- **Visual File Manager**: Grid view met previews
-- **Batch Selection**: Checkboxes voor multi-select
-- **Type Icons**: 📸 🎵 📄 📊 voor duidelijke herkenning
-- **Size & Date Info**: Complete metadata weergave
-- **Drag & Drop Zones**: Visuele feedback bij slepen
 
 ## 🛠️ Technical Architecture
 
@@ -157,83 +106,67 @@ Audio Upload → Gemini Transcriptie → Gemini Analyse → Markdown Response �
 ├── 📦 package.json               # Dependencies & scripts
 ├── ⚙️ next.config.js             # Next.js configuration
 ├── 🌐 netlify.toml               # Netlify deployment config
-├── 📋 README.md                  # Deze documentatie
 └── src/
     ├── 🎨 app/
     │   ├── 🌍 globals.css         # Tailwind CSS styling
     │   ├── 📱 layout.tsx          # App layout & metadata
-    │   ├── 🏠 page.tsx            # Main interface
+    │   ├── 🏠 page.tsx            # Main page
     │   └── 🔌 api/
-    │       ├── 💬 chat/route.ts            # Gemini AI endpoint
-    │       ├── 🌊 chat-stream/route.ts     # Streaming responses
-    │       ├── 🔊 generate-tts/route.ts    # Gemini TTS endpoint
-    │       ├── 🎵 transcribe-audio/route.ts # Whisper transcription
-    │       └── 📄 upload-docx/route.ts     # Document processing
+    │       └── 💬 chat/route.ts   # Gemini AI endpoint
     └── 🧩 components/
-        ├── 🤖 TestChatBot.tsx     # Main AI interface
-        ├── 🔊 GeminiTTS.tsx       # Gemini TTS component
-        ├── ⚙️ ResponseActions.tsx # TTS, Copy, Word export
-        ├── 📸 CameraCapture.tsx   # Camera functionality
-        ├── 📝 MarkdownRenderer.tsx # Response formatting
-        ├── 📁 FileUpload.tsx      # File handling
-        ├── 🗣️ VoiceInput.tsx      # Speech recognition
-        └── 📋 CopyButton.tsx      # Copy functionality
+        ├── 🧪 ChemistryPracticeApp.tsx  # Main app component
+        ├── ⚙️ SetupForm.tsx             # Level & topic selection
+        ├── ❓ QuestionInterface.tsx     # Question display & interaction
+        └── 📝 MarkdownRenderer.tsx     # Response formatting
 ```
 
-### 🔌 **API Endpoints**
+### 🔌 **API Integration**
 
 | Endpoint | Functie | Input | Output |
 |----------|---------|-------|--------|
-| `/api/chat` | Gemini AI Conversatie | `message`, `images[]`, `aiModel` | AI Response |
-| `/api/chat-stream` | Streaming AI Response | `message`, `images[]`, `aiModel` | Server-Sent Events |
-| `/api/generate-tts` | Gemini TTS Audio | `text`, `voiceName`, `emotion` | WAV Audio |
-| `/api/transcribe-audio` | Audio → Tekst | Audio File | Transcriptie |
-| `/api/upload-docx` | Document Processing | PDF/DOCX/CSV | Extracted Text |
+| `/api/chat` | Gemini AI Vragen | `niveau`, `onderwerp`, `prompt` | Gegenereerde vraag + uitleg |
 
-### 📊 **Supported File Formats**
+### 🎯 **AI Prompt Engineering**
 
-| Category | Formats | Processing | Max Size |
-|----------|---------|------------|----------|
-| 📸 **Images** | JPG, PNG, GIF, WebP, BMP | Gemini Vision | 20MB |
-| 🎵 **Audio** | MP3, WAV, AIFF, AAC, OGG, FLAC | Gemini 2.5 Flash | 25MB |
-| 📄 **Documents** | PDF, DOCX, TXT, MD | Text Extraction | 10MB |
-| 📊 **Data** | CSV, JSON | Structure Parsing | 5MB |
+De app gebruikt geavanceerde prompts voor:
+- **Vraag generatie**: Niveau-specifieke multiple choice vragen
+- **Socratische begeleiding**: Stapsgewijze hints bij foute antwoorden
+- **Uitleg generatie**: Duidelijke uitleg waarom antwoorden correct zijn
 
-## 🔧 Advanced Usage & Customization
+## 🔧 Customization & Development
 
-### 🎨 **Styling Customization**
+### 🎨 **Styling Aanpassen**
 ```css
 /* globals.css - Pas het kleurenschema aan */
 :root {
-  --primary-color: #9333ea;     /* Paars accent */
+  --primary-color: #2563eb;     /* Blauw accent */
   --secondary-color: #f3f4f6;   /* Light background */
-  --text-color: #1f2937;        /* Dark text */
+  --success-color: #059669;     /* Groen voor correct */
+  --error-color: #dc2626;       /* Rood voor incorrect */
 }
 ```
 
-### 🤖 **Gemini Model Configuration**
+### 📚 **Onderwerpen Toevoegen**
 ```typescript
-// src/app/api/chat/route.ts
-const modelName = aiModel === 'pro' ? 'gemini-2.5-pro-preview-06-05' :
-                 aiModel === 'smart' ? 'gemini-2.5-flash-preview-05-20' :
-                 'gemini-2.0-flash-exp' // internet model
+// src/components/SetupForm.tsx
+const CHEMISTRY_TOPICS = [
+  'Bestaand onderwerp...',
+  'Nieuw onderwerp hier toevoegen',
+  // Voeg meer onderwerpen toe
+]
 ```
 
-### 🔊 **TTS Engine Customization**
+### 🤖 **AI Model Aanpassen**
 ```typescript
-// src/components/ResponseActions.tsx
-const [useGeminiTTS, setUseGeminiTTS] = useState(false) // Default to Microsoft TTS
-const [selectedGeminiVoice, setSelectedGeminiVoice] = useState(GEMINI_VOICES[3]) // Kore
-const [selectedGeminiEmotion, setSelectedGeminiEmotion] = useState(EMOTION_STYLES[0]) // Neutraal
-```
-
-### 🎵 **Gemini Audio Transcriptie Configuration**
-```typescript
-// src/app/api/transcribe-audio/route.ts
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
-const prompt = "Transcribeer deze audio naar Nederlandse tekst. Geef alleen de getranscribeerde tekst terug, zonder extra commentaar."
-const result = await model.generateContent([prompt, audioPart])
-const transcription = result.response.text()
+// src/components/QuestionInterface.tsx
+const response = await fetch('/api/chat', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    message: prompt,
+    aiModel: 'smart' // 'pro', 'smart', of 'internet'
+  })
+})
 ```
 
 ## 🌐 Production Deployment
@@ -244,16 +177,6 @@ const transcription = result.response.text()
 2. ✅ Build settings: `npm run build`
 3. ✅ Environment variables toevoegen
 4. ✅ Automatische HTTPS & CDN
-
-**Handmatig:**
-```bash
-# Build voor productie
-npm run build
-
-# Deploy naar Netlify CLI
-npm install -g netlify-cli
-netlify deploy --prod --dir=.next
-```
 
 ### ⚡ **Vercel Alternative**
 ```bash
@@ -266,69 +189,58 @@ vercel --prod
 ### 🔧 **Environment Variables (Production)**
 ```
 GEMINI_API_KEY=gai_xxxxxxxxxxxxx     # Google AI Studio
-OPENAI_API_KEY=sk-proj-xxxxxxxxxx    # OpenAI Platform
 NODE_ENV=production                   # Auto-set door Netlify
 ```
 
-## 🚨 Troubleshooting & Common Issues
+## 🚨 Troubleshooting
 
-### ❌ **Build Failures**
-| Error | Oorzaak | Oplossing |
-|-------|---------|-----------|
+### ❌ **Veel Voorkomende Problemen**
+
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
 | `GEMINI_API_KEY not found` | Missing env var | Check Netlify environment variables |
-| `Module not found: openai` | Missing dependency | Run `npm install` |
-| `Build command failed` | Wrong build settings | Set build command to `npm run build` |
-| `Hydration mismatch` | SSR/Client mismatch | Clear `.next` cache, restart dev server |
+| Vragen laden niet | API quota | Check Gemini API quota/billing |
+| Build faalt | Wrong build settings | Set build command to `npm run build` |
+| Socratische begeleiding werkt niet | AI response parsing | Check API response format |
 
-### 🔧 **API Issues**
-| Problem | Solution |
-|---------|----------|
-| Gemini 429 Error | Check API quota/billing |
-| Whisper fails | Verify audio format & size |
-| Upload timeout | Reduce file size < 25MB |
-| CORS errors | Check API route configuration |
-
-### 📱 **Mobile Issues**
-- **Camera niet beschikbaar**: Gebruik HTTPS (required voor camera API)
-- **File upload fails**: Check mobile browser compatibility
-- **Touch events**: Tested op iOS Safari & Android Chrome
+### 🔧 **Debug Tips**
+```bash
+# Local development debugging:
+npm run dev                    # Start development server
+# Check browser console voor errors
+# Check Network tab voor API calls
+# Verify .env.local heeft correcte API key
+```
 
 ## 🎓 Educational Use Cases
 
 ### 👨‍🏫 **Voor Docenten**
-- 🎙️ **Lezingen transcriberen** en analyseren met AI
-- 📸 **Werkstukken fotograferen** en automatisch feedback geven  
-- 📄 **PDF's uploaden** voor snelle samenvatting
-- 🗣️ **Spraaknotities** omzetten naar tekst en structureren
+- 📝 **Huiswerk ondersteuning**: Leerlingen kunnen thuis extra oefenen
+- 🎯 **Gerichte oefening**: Focus op specifieke onderwerpen waar leerlingen moeite mee hebben
+- 📊 **Voortgang monitoring**: Zie welke onderwerpen meer aandacht nodig hebben
+- 🤝 **Klassikale discussie**: Gebruik interessante vragen voor klassengesprekken
 
-### 👩‍🎓 **Voor Studenten**
-- 📝 **Aantekeningen verbeteren** met AI ondersteuning
-- 🔍 **Complexe teksten analyseren** en uitleggen
-- 🎨 **Creatieve projecten** met multi-modal input
-- 💡 **Concepten begrijpen** door verschillende media te combineren
+### 👩‍🎓 **Voor Leerlingen**
+- 📚 **Examen voorbereiding**: Oefen specifieke onderwerpen voor toetsen
+- 🎯 **Zwakke punten versterken**: Focus op onderwerpen die je moeilijk vindt
+- 💡 **Begrip verdiepen**: Socratische begeleiding helpt je echt begrijpen
+- ⏰ **Flexibel leren**: Oefen wanneer het jou uitkomt
 
 ### 🏫 **Institutionele Deployment**
 ```bash
-# Multi-tenant setup
-GEMINI_API_KEY=shared_institutional_key
-OPENAI_API_KEY=shared_whisper_key
-STUDENT_MODE=true                    # Simplified interface
-ADMIN_DASHBOARD=true                # Usage analytics
+# Multi-class setup
+GEMINI_API_KEY=shared_school_key
+SCHOOL_MODE=true                    # Simplified interface
+ANALYTICS_ENABLED=true              # Usage tracking
 ```
 
-## 🔒 Security & Privacy
+## 🔒 Privacy & Security
 
 ### 🛡️ **Data Protection**
 - ✅ **Server-side API keys**: Nooit client-side exposed
-- ✅ **File validation**: Strict type & size checking  
-- ✅ **Input sanitization**: XSS prevention
-- ✅ **HTTPS only**: Secure transmission
-
-### 📊 **Data Handling**
-- 🔄 **Temporary processing**: Files niet permanent opgeslagen
-- 🗑️ **Auto-cleanup**: Uploads automatisch verwijderd
-- 🚫 **No tracking**: Geen user analytics by default
-- 🔐 **Privacy first**: GDPR compliant design
+- ✅ **Geen data opslag**: Vragen en antwoorden niet permanent opgeslagen
+- ✅ **Privacy first**: Geen tracking van individuele leerlingen
+- ✅ **GDPR compliant**: Voldoet aan privacy wetgeving
 
 ## 🤝 Contributing & Development
 
@@ -345,47 +257,36 @@ npm run build && npm start
 ```
 
 ### 📈 **Feature Roadmap**
-- [ ] **PDF OCR**: Scanned documents verwerken
-- [ ] **Video Upload**: Frame extraction en analyse
-- [ ] **Real-time Collaboration**: Multiple users
-- [ ] **Template Library**: Pre-made educational prompts
-- [ ] **Analytics Dashboard**: Usage insights
-- [ ] **SSO Integration**: School account systems
-
-### 🐛 **Bug Reports**
-Found een issue? [Open een GitHub Issue](https://github.com/TomNaberink/templateAPIinclcamera/issues) met:
-- 🖥️ Browser & OS version
-- 📝 Steps to reproduce
-- 📋 Error messages/screenshots
-- 🎯 Expected vs actual behavior
+- [ ] **Uitgebreide analytics**: Gedetailleerde voortgang tracking
+- [ ] **Meer vakken**: Uitbreiding naar andere exacte vakken
+- [ ] **Docent dashboard**: Interface voor docenten om voortgang te volgen
+- [ ] **Offline mode**: Vragen downloaden voor gebruik zonder internet
+- [ ] **Gamification**: Punten, badges en leaderboards
 
 ## 📚 Resources & Links
 
 ### 🔗 **API Documentation**
 - [Gemini API Docs](https://ai.google.dev/docs) - Google AI ontwikkelaar resources
-- [OpenAI Whisper](https://platform.openai.com/docs/guides/speech-to-text) - Audio transcriptie
 - [Next.js 15](https://nextjs.org/docs) - Framework documentatie
 
-### 🎥 **Video Tutorials**
+### 🎥 **Setup Tutorials**
 - [Gemini API Setup](https://makersuite.google.com/app/apikey) - API key verkrijgen
 - [Netlify Deployment](https://netlify.com) - Hosting platform
-- [OpenAI Platform](https://platform.openai.com) - Whisper API setup
 
 ### 💡 **Community**
-- [GitHub Repository](https://github.com/TomNaberink/templateAPIinclcamera)
-- [Issues & Feature Requests](https://github.com/TomNaberink/templateAPIinclcamera/issues)
+- [GitHub Repository](https://github.com/TomNaberink/scheikunde-oefenen)
 - [Tom Naberink LinkedIn](https://linkedin.com/in/tomnaberink) - Direct contact
 
 ---
 
-## 🎉 **Ready to Transform Education?**
+## 🎉 **Ready to Transform Chemistry Education?**
 
-Deze template geeft je **alles** wat je nodig hebt om geavanceerde AI-applicaties te bouwen voor het onderwijs. Van simpele chatbots tot complexe multi-modal AI-assistenten - de mogelijkheden zijn eindeloos!
+Deze app biedt een moderne, AI-gedreven manier om scheikunde te leren. Van gepersonaliseerde vragen tot intelligente begeleiding - alles wat leerlingen nodig hebben om succesvol te zijn in scheikunde!
 
-**💜 Gemaakt met passie door Tom Naberink**  
-**🚀 Deploy nu en start met bouwen aan de toekomst van onderwijs!**
+**🧪 Gemaakt met passie door Tom Naberink**  
+**🚀 Deploy nu en help leerlingen excelleren in scheikunde!**
 
 ---
 
-*Versie 1.0 - Complete AI Education Template*  
-*Last updated: Juni 2025* 
+*Versie 1.0 - Scheikunde Oefenapp*  
+*Last updated: December 2024*
